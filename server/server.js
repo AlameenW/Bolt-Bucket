@@ -2,7 +2,7 @@ import express from 'express'
 import path from 'path'
 import favicon from 'serve-favicon'
 import dotenv from 'dotenv'
-
+import carRouter from './routes/cars.js'
 // import the router from your routes file
 
 
@@ -23,6 +23,7 @@ else if (process.env.NODE_ENV === 'production') {
 }
 
 // specify the api path for the server to use
+app.use('/api/cars', carRouter)
 
 
 if (process.env.NODE_ENV === 'production') {
