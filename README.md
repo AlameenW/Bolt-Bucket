@@ -1,10 +1,10 @@
-# WEB103 Project 4 - *Name of App Here*
+# WEB103 Project 4 - *Alameen Adeku*
 
-Submitted by: **Your name here**
+Submitted by: **Bolt Bucket.**
 
 About this web app: **App description here**
 
-Time spent: **X** hours
+Time spent: **5** hours
 
 ## Required Features
 
@@ -12,9 +12,9 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [ ] **The web app uses React to display data from the API.**
-- [ ] **The web app is connected to a PostgreSQL database, with an appropriately structured `CustomItem` table.**
-  - [ ]  **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
-  - [ ]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured `CustomItem` table.**
+  - [x]  **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [x]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
 - [ ] **Users can view **multiple** features of the `CustomItem` (e.g. car) they can customize, (e.g. wheels, exterior, etc.)**
 - [ ] **Each customizable feature has multiple options to choose from (e.g. exterior could be red, blue, black, etc.)**
 - [ ] **On selecting each option, the displayed visual icon for the `CustomItem` updates to match the option the user chose.**
